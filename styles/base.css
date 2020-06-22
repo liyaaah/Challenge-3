@@ -1,0 +1,96 @@
+body {
+  margin: 5vh 0vw;
+
+  background-color: white;
+}
+#map {
+  height: 40vh;
+  width: 100vw;
+}
+
+.customMarker {
+  background-image: url('https://cdn.iconscout.com/icon/free/png-256/beer-39-109304.png');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  width: 20px;
+  height: 20px;
+  
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: 0 0 5px white;
+}
+div{
+	text-align: center;
+	position: relative;
+
+}
+h1{
+	font-size: 3em;
+	font-family:'Roboto', sans-serif;
+	font-weight: 400;
+	color: #f7b829;
+	text-align: center;
+}
+
+p{
+	font-size: 1em;
+	font-family:'Roboto', sans-serif;
+	font-weight: 100;
+	color: black;
+	text-align: center;
+}
+
+article{
+	font-size: 1em;
+	font-family:'Roboto', sans-serif;
+	font-weight: 100;
+	color: black;
+	text-align: center;
+}
+#pubinfo{
+	float: left;
+	margin-left: 30%;
+}
+
+#weather{
+	float: right;
+	margin-right: 30%;
+}
+
+input[type=text]{
+	padding:10px;
+	margin: 5px;
+	box-shadow: 0 0 15px 4px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	width: 30%;
+	border:1px solid #f7b829;
+
+}
+
+.searchButton {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:10px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:'Roboto', sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.searchButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.searchButton:active {
+	position:relative;
+	top:1px;
+}
+

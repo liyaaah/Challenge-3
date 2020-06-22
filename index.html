@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MapBox</title>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+		<script src="scripts/main.js" defer></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+		<link href="styles/base.css" rel="stylesheet" />
+
+	</head>
+	<body>
+    
+
+    <h1>The perfect landing spot🍻</h1>
+    <p> After a long journal all you need is good weather and some beers.</p>
+		<div class= "search"> 
+			<input type="text" id="city" name="city" placeholder="enter city here...">
+			<button id="submit" type="submit" class="searchButton">search</button>
+		</div>
+		<div id="map"></div>
+		<article>
+			<article id="pubinfo"></article>
+			<article id = "weather">
+			</article>
+		</article>
+	</body>
+</html>
